@@ -1,0 +1,24 @@
+programa
+{
+	/*Faça um algoritmo que dadas as medidas de comprimento e largura,
+calcule:
+b. O dobro da área.
+*\
+ */
+	
+	funcao inicio()
+	{
+		inteiro comprimento 
+		inteiro largura
+	
+		escreva("digite o comprimento: ")
+		leia(comprimento)
+          escreva("agora digite a largura: ")
+          leia(largura)
+
+          inteiro a=comprimento*largura
+
+          escreva( "o dobro da area do gramado é: ",a*2, "\n")
+
+	}
+}
