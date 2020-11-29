@@ -1,0 +1,23 @@
+programa {
+    
+	funcao inicio () {
+	   / * 8. Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada. * /  
+	   
+		inteiro num
+	
+		escreva ("Fale um número e lhe mostrarei sua tabuada:")
+		leia (num)
+
+		escrever (num, "* 1 =", num * 1, "\ n")
+		escrever (num, "* 2 =", num * 2, "\ n") 
+		escrever (num, "* 3 =", num * 3, "\ n")
+		escrever (num, "* 4 =", num * 4, "\ n")
+		escrever (num, "* 5 =", num * 5, "\ n") 
+		escrever (num, "* 6 =", num * 6, "\ n")
+		escrever (num, "* 2 =", num * 7, "\ n") 
+		escrever (num, "* 8 =", num * 8, "\ n")
+		escrever (num, "* 9 =", num * 9, "\ n")
+		escrever (num, "* 10 =", num * 10)
+
+	}
+}
