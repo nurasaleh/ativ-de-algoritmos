@@ -1,0 +1,24 @@
+programa
+{
+	/*Faça um programa que mostre o valor total da compra de todos os livros.
+	 
+	 */
+	
+	funcao inicio()
+	{
+		
+		real a=26.90
+		real b=34.10
+		real c=29.90
+		real d=26.90
+		real f=50.00
+		real g=26.90
+		
+
+		escreva("o valor total de sua compra foi de ")
+
+		real t = a+b+c+d+f+g
+		escreva(t)
+		
+	}
+}
