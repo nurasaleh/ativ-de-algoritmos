@@ -1,0 +1,20 @@
+programa
+{
+	/*Faça um programa que converta metros para centímetros.
+	 * 
+	 */
+	funcao inicio()
+	{
+		inteiro metro
+	     inteiro b=100
+	     
+
+     escreva("informe um valor em metros: ")
+     leia(metro)
+
+     escreva("o valor de "   , "  metros em centimetros é de: ")
+
+        inteiro c=metro*100
+        escreva(c)
+	}
+}
