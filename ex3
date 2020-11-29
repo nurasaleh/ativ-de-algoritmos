@@ -1,0 +1,24 @@
+programa
+{
+	/*Escreva um programa que dados as variáveis chamadas mãe e filha, troque seus valores.
+	 * 
+	 */
+	
+	funcao inicio()
+	{
+		cadeia mae = "Tess"
+		cadeia filha = "Anna"
+		cadeia aux
+
+          mae = "Tess"
+          filha = "Anna"
+
+          aux = mae
+          mae = filha
+          filha = aux
+
+          escreva("o nome da mae é: " , mae )
+          
+          escreva(" o nome da filha é: " , filha)
+	 } 
+}
