@@ -1,0 +1,26 @@
+programa
+{
+	/*Faça um algoritmo que dadas as medidas de comprimento e largura,
+calcule:
+a. A área do gramado.
+*\
+ */
+	funcao inicio()
+	{
+		inteiro comprimento 
+		inteiro largura
+	
+		escreva("digite o comprimento: ")
+		leia(comprimento)
+          escreva("agora digite a largura: ")
+          leia(largura)
+
+          inteiro a=comprimento*largura
+
+          escreva( "a area do gramado é: ",a, "\n")
+
+          
+
+          
+	}
+}
